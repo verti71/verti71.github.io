@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pudła Panterki — personal photo cataloguing tool</title>
+<meta name="description" content="Pudła Panterki is a small personal tool that catalogues photos of storage boxes in a Google Photos album.">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>Pudła Panterki</h1>
+<p><em>PL: Prywatne narzędzie do katalogowania zdjęć zawartości pudeł w albumie Zdjęć Google.</em></p>
+<h2>What it is</h2>
+<p>Pudła Panterki ("Panther's boxes") is a small, single-user private project (Pudła Panterki — prywatny projekt) that keeps a visual inventory of personal storage boxes. Each box has a number (P01, P02, …). Photos of the box contents, together with a short description, are added to one Google Photos album named <strong>Pudła Panterki</strong>.</p>
+<h2>How it works</h2>
+<ul>
+<li>Photos are submitted through a private web form, or e-mailed by the owner from their own address to their own Gmail account with <code>PUDLA_BATCH</code> or <code>PUDLA_BRIDGE</code> in the subject and the images attached.</li>
+<li>With the owner's permission, the app reads those specific e-mails (Gmail read-only access), extracts the attached images and the descriptions written in the message, and uploads the images to the Pudła Panterki album (Google Photos Library API, "add to album" and "edit app-created data" access).</li>
+<li>The app does not look at any other e-mail, uses its Google Photos access only to manage the Pudła Panterki album and the content it adds there, and does not send e-mail.</li>
+</ul>
+<h2>Who can use it</h2>
+<p>The app is not offered to the public. It is used only by its owner with the owner's own Google Account. There is no registration and no advertising.</p>
+<h2>Legal</h2>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+</ul>
+<footer>Contact: <a href="mailto:pudla.nylon783@aleeas.com">pudla.nylon783@aleeas.com</a></footer>
+</body></html>
